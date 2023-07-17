@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffb900;
+    --font-heading: Sen, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/*  ========common=========*/
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100%-48px);
+}
+
+a {
+    text-decoration: none;
+}
+/* ======Header==== */
+.header.fixed {
+    position: sticky;
+    z-index: 1;
+    top: -50px;
+}
+.header .body {
+    display: flex;
+    padding: 57px 0 20px;
+    align-items: center;
+    background: #fff;
+}
+.header .list {
+    display: flex;
+    margin-left: 235px;
+    gap: 39px;
+}
+.header .list a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.header .list a:hover {
+    font-weight: 600;
+    /* color: black; */
+}
+.header .sin {
+    margin-left: 177px;
+}
+.header .btn {
+    width: 108px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background: #fff;
+    margin-left: 24px;
+}
+/* =====Info===== */
+.info {
+    margin-top: 30px;
+    padding: 30px 0 79px;
+}
+.info .body {
+    display: flex;
+}
+.info .left {
+    margin-top: 93px;
+}
+.info .title {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+    margin-top: 18px;
+}
+.info .left .desc {
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    margin-top: 46px;
+    width: 374px;
+}
+.info .left .btns {
+    display: flex;
+    margin-top: 52px;
+}
+.info .left .btn {
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    width: 186px;
+    height: 68px;
+    border: none;
+
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.info .left .pay-button {
+    width: 62px;
+    height: 62px;
+    margin-left: 50px;
+}
+.info .right {
+    margin-left: 71px;
+    position: relative;
+}
+.info .right .img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+.info .right .coures {
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #fefefd;
+    position: absolute;
+    display: flex;
+    bottom: 407px;
+    right: 459px;
+}
+.info .right .coures img {
+    width: 36px;
+    height: 40px;
+    object-fit: cover;
+    padding: 17px 0 18px 25px;
+}
+.info .right .coures .sub {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 55px;
+}
