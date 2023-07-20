@@ -122,28 +122,65 @@ a {
     height: 631px;
     object-fit: cover;
 }
-.info .right .coures {
+.info .right .coures-1 {
+    position: absolute;
+    top: 149px;
+    right: 459px;
     width: 157px;
     height: 75px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     border-radius: 18px;
     background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.info .right .coures-2 {
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
     position: absolute;
+    justify-content: center;
     display: flex;
-    bottom: 407px;
-    right: 459px;
+    align-items: center;
+    bottom: 46px;
+    right: 517px;
 }
-.info .right .coures img {
-    width: 36px;
-    height: 40px;
-    object-fit: cover;
-    padding: 17px 0 18px 25px;
+.info .right .coures-3 {
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
 }
-.info .right .coures .sub {
+.info .right .coures-3 .sub {
+    margin-top: 17px;
+    margin-left: 35px;
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
-    width: 55px;
 }
+.info .right .coures-3 .avatar-group {
+    margin-top: 8px;
+    margin-left: 35px;
+}
+.info .right .coures-3 .avatar-group .img:first-child {
+    margin-left: 0;
+}
+
+.info .right .coures-3 .avatar-group .img {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
 /* =======FEATURES======== */
 .features {
     margin-top: 51px;
@@ -369,6 +406,7 @@ a {
 .blog .body {
     margin-top: 265px;
     height: 481px;
+    display: flex;
 }
 
 .blog-left {
@@ -398,4 +436,134 @@ a {
 }
 .blog .blog-left .btn {
     margin-top: 52px;
+}
+.blog .blog-right {
+    width: 64%;
+    position: relative;
+}
+.blog .blog-right .big {
+    width: 235px;
+    height: 235px;
+    border-radius: 235px;
+    object-fit: cover;
+    position: absolute;
+    left: 345px;
+    top: 70px;
+}
+.blog .blog-right .medium-1 {
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.blog .blog-right .medium-2 {
+    width: 92px;
+    height: 92px;
+    border-radius: 92px;
+    object-fit: cover;
+    left: 212px;
+    top: 0;
+    position: absolute;
+}
+.blog .blog-right .small {
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    object-fit: cover;
+}
+.blog .blog-right .small.small-1 {
+    bottom: 150px;
+    position: absolute;
+    left: 72px;
+}
+.blog .blog-right .small.small-2 {
+    position: absolute;
+    bottom: 0;
+    left: 284px;
+}
+.blog .blog-right .small.small-3 {
+    position: absolute;
+    bottom: 32px;
+    right: 35px;
+}
+
+/* ready-admin */
+.admin {
+    margin-top: 130px;
+    background: #def6f5;
+    padding: 76px 0 88px 0;
+}
+.admin .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin .body .left .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.admin .body .left .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.admin .body .right button {
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: #2ac9bf;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 180px;
+}
+
+/* ========Footer====== */
+.footer {
+    margin-top: 140px;
+    padding: 0 0 50px 0;
+}
+.footer .body {
+    display: flex;
+    gap: 137px;
+    justify-content: center;
+}
+.footer .body .img {
+    width: 127px;
+    height: 37px;
+}
+.footer .body .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer .body .item {
+    margin-top: 25px;
+    display: block;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.footer .body div.item {
+    display: flex;
+    align-items: center;
+}
+.footer .body div.item span {
+    margin-left: 9px;
+}
+.footer .end {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
